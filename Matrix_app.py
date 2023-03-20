@@ -241,11 +241,8 @@ def eigenvectors(mat):
 
 st.write("""
 # Matrix
-click "**operation button**" to perform some matrix operations or click the **Properties button**" to Get the rank, order, trace, determinant, cofactor, adjoint, inverse, eigenvalues, eigenvector, etc of your matrix**.
 """)
 
-Properties = st.button("Properties")
-Operations = st.button("Operations")
 matrix=fresh_prop()
 
 
